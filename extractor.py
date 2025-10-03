@@ -1,9 +1,9 @@
 from google import genai
-import sys
+import sys,os
 
 # Set Gemini API Key
-client = genai.Client(api_key='AIzaSyDY9Z3Epdcvopjn_YV5v9rxJTDdPkI7lR0')
-
+api_key = os.getenv("GOOGLE_API_KEY")
+client = genai.Client(api_key=api_key)
 # System instruction
 class SystemMessage():
     def __init__(self):
