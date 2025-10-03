@@ -6,7 +6,7 @@ An AI-powered tool built with **Flask** and the **Google AI API** to extract tab
 
 ## 📸 Demo
 
-![Demo GIF](demo.gif)  
+![Demo GIF](https://github.com/TegaAminode/ai-table-extractor-app/blob/main/AI%20Table%20Extractor%20Demo.gif)  
 *Uploading a Image → Extracting tables → Downloading CSV*
 
 ---
