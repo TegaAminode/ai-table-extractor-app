@@ -19,7 +19,7 @@ def file_upload():
        if output_message:
             flash(output_message)
             #download(f)
-    return render_template('home.html')
+    return render_template('index.html')
 
 if __name__ == "__main__":
     app.run(debug=True)

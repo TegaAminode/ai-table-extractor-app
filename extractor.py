@@ -3,6 +3,8 @@ import sys,os
 
 # Set Gemini API Key
 api_key = os.getenv("GOOGLE_API_KEY")
+if not api_key:
+    raise("No api key found")
 client = genai.Client(api_key=api_key)
 # System instruction
 class SystemMessage():
