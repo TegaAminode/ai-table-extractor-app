@@ -20,7 +20,7 @@ An AI-powered tool built with **Flask** and the **Google AI API** to extract tab
 ---
 
 ## 🛠️ Tech Stack
-- [Flask] – Backend framework  
+- Flask – Backend framework  
 - [Google AI API](https://ai.google.dev/) – Table and document processing  
 - [Python](https://www.python.org/) – Core language  
 
